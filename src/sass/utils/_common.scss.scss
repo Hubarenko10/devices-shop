@@ -1,7 +1,7 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
-.page {
-    color: $primary-text-color;
-    font-family: -apple-system, Roboto, sans-serif;
-    @include font(14px, null, 1.14, null);
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    background-color: #F5F5F5;
 }

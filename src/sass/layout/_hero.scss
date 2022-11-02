@@ -1,0 +1,46 @@
+.hero {
+    height: 550px;
+    background-color: #DCE5E2;
+    border-radius: 32px;
+    background-image: url(/src/images/phones_back.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.hero_left{
+    padding-top: 145px;
+    padding-left: 56px;
+}
+
+.hero_title{
+    width: 612px;
+    height: 140px;
+
+
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 1.20;
+    color: #000000;
+}
+
+.hero_description{
+    width: 565px;
+    margin-top: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.hero_btn{
+    margin-top: 30px;
+    padding: 14px 53px;
+    background-color: inherit;
+    border: 1px solid #000000;
+    border-radius: 200px;
+}

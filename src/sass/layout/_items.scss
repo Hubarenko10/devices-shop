@@ -1,0 +1,66 @@
+img {
+  width: 250px;
+  height: 215px;
+  display: block;
+}
+.section-item__header {
+  text-align: center;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  color: #000;
+}
+.section-item__text {
+  text-align: center;
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000;
+}
+.product{
+    display: flex;
+    justify-content: center;
+}
+.product-list{
+    width: 300px;
+    height: 270px;
+    &:not(:last-child){
+        margin-right: 30px;
+    }
+    
+}
+.product-list__link{
+display: flex;
+margin-bottom: 5px;
+
+}
+.product-list__title{
+    font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: #000;
+}
+.product-list__text{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #4B4B4B;
+        margin-top: 10px;
+        margin-bottom: 25px;
+}
+.product-list__price{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+}

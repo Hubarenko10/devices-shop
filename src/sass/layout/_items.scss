@@ -4,6 +4,7 @@ img {
   display: block;
 }
 .section-item__header {
+  padding-top: 55px;
   text-align: center;
   font-family: 'Readex Pro';
   font-style: normal;
@@ -20,14 +21,14 @@ img {
   font-size: 13px;
   line-height: 17px;
   color: #000;
+  margin-bottom: 30px;
 }
 .product{
     display: flex;
     justify-content: center;
 }
 .product-list{
-    width: 300px;
-    height: 270px;
+  width: 300px;
     &:not(:last-child){
         margin-right: 30px;
     }
